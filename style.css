@@ -1,14 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 body {
   margin: 0;
+  display: flex;
 }
 
 .sidebar {
   background-image: url(./guitar-sidebar.jpg);
   height: 100vh;
+  width: 30%;
+  color: white;
 }
 
 .sidebar-text {
-  color: white;
   background-color: black;
   opacity: 50%;
+  margin-top: 25vh;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.sidebar-text h1 {
+  font-size: 3rem;
+  display: inline;
+}
+
+#logo {
+  width: 3rem;
+}
+
+.main {
+  width: 70%;
 }
