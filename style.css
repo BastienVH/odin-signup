@@ -113,3 +113,14 @@ section p {
   flex: 1;
   margin: 20px;
 }
+
+button {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #88571b;
+  border-radius: 4px;
+  box-shadow: rgb(207, 207, 207) 6px 6px 10px;
+  padding: 16px;
+  background-color: #aa6c22;
+}
