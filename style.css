@@ -45,4 +45,26 @@ body {
 
 .main {
   width: 60%;
+  background-color: #f9fafb;
+}
+
+.title-text {
+  padding: 20vh 3rem 5vh;
+}
+
+.main h2 {
+  font-size: 2rem;
+}
+
+form {
+  background-color: white;
+  padding: 2rem 3rem;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+.bottom {
+  padding: 2rem 3rem;
 }
