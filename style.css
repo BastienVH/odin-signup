@@ -4,4 +4,11 @@ body {
 
 .sidebar {
   background-image: url(./guitar-sidebar.jpg);
+  height: 100vh;
+}
+
+.sidebar-text {
+  color: white;
+  background-color: black;
+  opacity: 50%;
 }
