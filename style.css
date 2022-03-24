@@ -7,27 +7,40 @@ body {
 
 .sidebar {
   background-image: url(./guitar-sidebar.jpg);
-  background-size: 100%;
+  background-size: 150%;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 40%;
   color: white;
-}
-
-.sidebar-text {
-  background-color: black;
-  opacity: 50%;
-  margin-top: 25vh;
-  padding: 20px 0;
   text-align: center;
 }
 
+.sidebar-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 25vh;
+  padding: 20px 0;
+}
+
 .sidebar-text h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-family: 'Rock Salt', cursive;
   display: inline;
 }
 
+.sidebar .attribution{
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10px;
+  width: 40%;
+}
+.sidebar .attribution a:visited {
+  color: white;
+}
+
 #logo {
-  width: 3rem;
+  width: 5rem;
+  position: relative;
+  top: 20px;
 }
 
 .main {
