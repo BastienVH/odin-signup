@@ -51,7 +51,7 @@ body {
 }
 
 .title-text {
-  padding: 20vh 3rem 5vh;
+  padding: 15vh 3rem 5vh;
 }
 
 .main h2 {
@@ -109,7 +109,7 @@ section {
 
 section p {
   flex: 1;
-  margin: 20px 200px 20px 0;
+  margin: 20px 10vw 20px 0;
 }
 
 button {
