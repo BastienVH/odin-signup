@@ -102,6 +102,10 @@ input:focus {
   box-shadow: rgb(207, 207, 207) 6px 6px 10px;
 }
 
+input.error {
+  border: 2px solid red;
+}
+
 section {
   flex: 1;
   display: flex;
