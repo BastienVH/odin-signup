@@ -8,8 +8,7 @@ body {
 .sidebar {
   flex: 1;
   background-image: url(./guitar-sidebar.jpg);
-  background-size: 150%;
-  background-repeat: no-repeat;
+  background-size: cover;
   width: 40%;
   color: white;
   text-align: center;
