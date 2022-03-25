@@ -54,7 +54,7 @@ body {
 }
 
 .main h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .middle {
@@ -77,7 +77,6 @@ form {
 }
 
 label {
-  font-size: 1.2rem;
   text-transform: uppercase;
   width: 100%;
 }
@@ -105,12 +104,11 @@ input:focus {
 section {
   flex: 1;
   display: flex;
-  /* width: 800px; */
 }
 
 section p {
   flex: 1;
-  margin: 20px;
+  margin: 20px 200px 20px 0;
 }
 
 button {
