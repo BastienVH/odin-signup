@@ -69,6 +69,10 @@ form {
   padding: 2rem 3rem;
 }
 
+.bottom a:any-link {
+  color: #aa6c22;
+}
+
 label {
   text-transform: uppercase;
   width: 100%;
