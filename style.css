@@ -8,6 +8,9 @@ body {
 
 .sidebar {
   flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
   background-image: url(./guitar-sidebar.jpg);
   background-size: cover;
   width: 40%;
@@ -29,10 +32,6 @@ body {
 
 .sidebar .attribution{
   font-size: 1.2rem;
-  position: absolute;
-  bottom: 0px;
-  width: 33%;
-  margin: 0;
 }
 
 .sidebar .attribution a:any-link {
