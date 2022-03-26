@@ -34,7 +34,8 @@ body {
   width: 33%;
   margin: 0;
 }
-.sidebar .attribution a:visited {
+
+.sidebar .attribution a:any-link {
   color: white;
 }
 
@@ -106,12 +107,16 @@ input.error {
   border: 2px solid red;
 }
 
+.error-msg {
+  color: red;
+}
+
 section {
   flex: 1;
   display: flex;
 }
 
-section p {
+section>p {
   flex: 1;
   margin: 20px 10vw 20px 0;
 }
